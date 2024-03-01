@@ -1,0 +1,11 @@
+temperature: 10
+
+settings:
+  x: [35, 70, 120, 155, 205, 240]
+  y: [0.5, 1, 2, 2.5, 3, 4]
+
+data:
+  type: csv
+  csv:
+    - label: FST1
+      file_name: src/assetutilities/tests/test_data/visualization/csv/test_1.csv
