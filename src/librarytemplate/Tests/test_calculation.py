@@ -58,6 +58,5 @@ class TestCalculation(unittest.TestCase):
         }
         expected_result = 0  # Since both x and y are empty, their sum is zero
         self.assertEqual(calculate_result(input_data), expected_result)
-
 if __name__ == '__main__':
     unittest.main()
