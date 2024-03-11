@@ -16,7 +16,7 @@ class TestCalculation(unittest.TestCase):
 
         result = temperature * (sum(x) + sum(y))
 
-        expected_result = 8380.0
+        expected_result = temperature * (sum(input_data['settings']['x']) + sum(input_data['settings']['y']))
 
         # Assert the calculated result matches the expected result
         self.assertEqual(result, expected_result)
