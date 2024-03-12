@@ -1,4 +1,4 @@
-unittest
-os 
-sys
 pyyaml
+os
+sys
+unittest
