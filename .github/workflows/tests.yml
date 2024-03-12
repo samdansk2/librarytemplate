@@ -19,4 +19,4 @@ jobs:
       run: pip install -r requirements.txt
       
     - name: Run tests
-      run: python -m unittest test_calculation
+      run: python -m unittest discover -s src/librarytemplate/Tests -p 'test_calculation.py'
