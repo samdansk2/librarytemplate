@@ -7,5 +7,4 @@ settings:
 data:
   type: csv
   csv:
-    file_name: src/assetutilities/tests/test_data/visualization/csv/test_1.csv
-
+    file_name: src/librarytemplate/data/test_1.csv
