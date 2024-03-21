@@ -1,7 +1,14 @@
+import os
 import unittest
 import yaml
 
-yaml_file_path= "src\\librarytemplate\\data\\input.yml"
+# Check if the YAML file exists
+# yaml_file_path = os.path.join(os.getcwd(), 'src', 'librarytemplate', 'data', 'input.yml')
+yaml_file_path = os.path.join('src', 'librarytemplate', 'data', 'input.yml')
+if os.path.isfile(yaml_file_path):
+    print(f"File exists: {yaml_file_path}.")
+else:
+    print(f"File does not exists: {yaml_file_path}.")
 
 # Load the YAML file
 with open(yaml_file_path, 'r') as file:
@@ -58,5 +65,8 @@ class TestCalculation(unittest.TestCase):
         }
         expected_result = 0  # Since both x and y are empty, their sum is zero
         self.assertEqual(calculate_result(input_data), expected_result)
+        
+calculate_result(input_data)
+
 if __name__ == '__main__':
     unittest.main()
