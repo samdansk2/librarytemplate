@@ -1,7 +1,7 @@
 import yaml
 
 # path to YAML file
-yaml_file_path = "src\librarytemplate\data\input,yml"
+yaml_file_path = "src\librarytemplate\data\input.yml"
 
 # Read the YAML file
 with open(yaml_file_path, "r") as yaml_file:
