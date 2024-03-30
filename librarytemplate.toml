@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "librarytemplate"
-version = "0.0.4"
+version = "0.0.1"
 description = "Python Package Code"
 readme = "README.md"
 authors = [{ name = "Samdan Shaik", email = "samdanshaik8998@gmail.com" }]
@@ -43,7 +43,7 @@ tag             = true
 push            = false
 
     [tool.bumpver.file_patterns]
-    "pyproject.toml" = [
+    "librarytemplate.toml" = [
         'current_version = "{version}"',
         'version = "{version}"',
     ]
