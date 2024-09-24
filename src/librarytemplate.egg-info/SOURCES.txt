@@ -9,7 +9,7 @@ src/librarytemplate.egg-info/PKG-INFO
 src/librarytemplate.egg-info/SOURCES.txt
 src/librarytemplate.egg-info/dependency_links.txt
 src/librarytemplate.egg-info/top_level.txt
-src/librarytemplate/Tests/__init__.py
-src/librarytemplate/Tests/calculation.py
-src/librarytemplate/Tests/test_calculation.py
 src/librarytemplate/data/__init__.py
+src/librarytemplate/tests/__init__.py
+src/librarytemplate/tests/calculation.py
+src/librarytemplate/tests/test_calculation.py

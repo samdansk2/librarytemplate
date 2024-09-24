@@ -48,7 +48,7 @@ push            = false
         'version = "{version}"',
     ]
     "src/librarytemplate/__init__.py" = ["{version}"]
-    "src/librarytemplate/__main__.py" = ["- leveraged-multi-family-analysis v{version}"]
+    "src/librarytemplate/__main__.py" = ["- librarytemplate v{version}"]
 
 [tool.isort]
 profile                   = "black"
